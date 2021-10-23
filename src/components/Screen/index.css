@@ -1,0 +1,10 @@
+.screen-input {
+    width: 100%;
+    line-height: 50px;
+    padding: 0 10px;
+    font-size: 40px;
+    text-align: right;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}

@@ -1,0 +1,31 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 50%;
+    background: beige;
+    border: 1px solid #ebebeb;
+    cursor: pointer;
+    transition: background ease .2s;
+}
+
+.button:hover {
+    background: #d0d0b4;
+}
+
+.button.operator {
+    background: #ebebeb;
+}
+
+.button.operator:hover {
+    background: #d5d5d5;
+}
+
+.button.operator-equal {
+    background: #c61a45;
+    color: #fff;
+}
