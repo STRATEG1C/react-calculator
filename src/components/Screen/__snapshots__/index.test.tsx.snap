@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test screen component Should be rendered 1`] = `
+<input
+  class="screen-input"
+  data-testid="screen-input"
+  value="2+2*2"
+/>
+`;

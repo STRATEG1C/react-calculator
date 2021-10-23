@@ -16,7 +16,12 @@ export const Screen: React.FC<Props> = (props: Props) => {
 
   return (
     <div className="screen">
-      <input className="screen-input" value={text} onChange={onChangeHandler} />
+      <input
+        className="screen-input"
+        value={text}
+        onChange={onChangeHandler}
+        data-testId="screen-input"
+      />
     </div>
   )
 }
