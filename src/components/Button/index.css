@@ -13,6 +13,10 @@
     transition: background ease .2s;
 }
 
+.button.invisible {
+    visibility: hidden;
+}
+
 .button:hover {
     background: #d0d0b4;
 }
