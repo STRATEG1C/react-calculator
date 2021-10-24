@@ -20,7 +20,7 @@ export const Screen: React.FC<Props> = (props: Props) => {
         className="screen-input"
         value={text}
         onChange={onChangeHandler}
-        data-testId="screen-input"
+        data-testid="screen-input"
       />
     </div>
   )

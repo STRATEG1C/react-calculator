@@ -10,7 +10,11 @@
     background: beige;
     border: 1px solid #ebebeb;
     cursor: pointer;
-    transition: background ease .2s;
+    transition: background-color ease .2s;
+}
+
+.button:last-child {
+    margin-right: 0;
 }
 
 .button.invisible {
