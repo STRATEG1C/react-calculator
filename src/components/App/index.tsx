@@ -12,7 +12,9 @@ export const App: React.FC = () => {
       if (text.includes('/0')) {
         throw new Error();
       }
-      setText(eval(text));
+      if (text !== 'Error') {
+        setText(eval(text).toString());
+      }
     } catch (err) {
       setText('Error');
     }
